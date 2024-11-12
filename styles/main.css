@@ -1,0 +1,211 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+#projetos {
+  width: 100%;
+  border: 1px grey solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  padding: 2px 6px;
+}
+
+.container p {
+  font-size: 14px;
+}
+
+h4 {
+  text-align: center;
+}
+.scrollmenu {
+  background-color: #ffffff;
+  overflow: auto;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+}
+
+.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  padding: 14px;
+  text-decoration: none;
+  text-align: justify;
+  width: 330px;
+  background-color: #11212d;
+  height: 485px;
+}
+
+.scrollmenu .card:hover {
+  background-color: #4a5c6a;
+}
+
+.scrollmenu a {
+  width: 100%;
+  height: 100%;
+}
+
+.scrollmenu img {
+  width: 100%;
+  height: 70%;
+}
+.informacaoPessoal {
+  display: flex;
+  justify-content: space-evenly;
+}
+#habilidades {
+  width: 97%;
+  padding: 10px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 10px 5px 10px;
+  background-color: white;
+}
+
+#habilidades ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding: 5px;
+  gap: 5px;
+}
+#habilidades ul li {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: #11212d;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+ul li img {
+  height: 40px;
+  width: 40px;
+}
+#sobreMim,
+#formacaoAcademica,
+#contato {
+  width: 50%;
+  padding: 10px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  margin: 10px;
+}
+#formacaoAcademica p {
+  text-align: start;
+}
+
+p {
+  text-align: justify;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  height: 265px;
+  /*position: absolute;*/
+}
+#contato #meEncontre {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+#linksExternos,
+#contactMe {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+#contactMe {
+  height: 100%;
+  padding: 10px 0 10px 0;
+}
+#nomeSobrenome {
+  display: flex;
+  height: 20%;
+  width: 322px;
+  gap: 2px;
+  flex-direction: row;
+}
+
+main h2 {
+  text-align: center;
+  color: #06141b;
+  font-size: 34px;
+}
+#linksExternos ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#linksExternos ul li {
+  margin: 15px;
+}
+
+#contactMe #nome,
+#contactMe #sobrenome {
+  padding: 10px;
+  width: 50%;
+}
+#nome,
+#sobrenome,
+#email,
+#mensagem {
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 6px;
+  font-size: 18px;
+  width: 300px;
+}
+
+button {
+  height: 20%;
+  margin-top: 15px;
+  width: 300px;
+  background-color: #11212d;
+  color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto";
+}
+
+html {
+  width: 100vw;
+  max-width: 100%;
+  height: fit-content;
+  background-color: #f3f3f3;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
